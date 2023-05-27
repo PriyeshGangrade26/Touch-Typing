@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import {
   Container,
   Main,
@@ -74,7 +75,9 @@ export default function Home({ LogOutLocalAuthentication }) {
         <Container>
           <Main>
             <div className="alignLogoutBtn">
-              <div></div>
+              <div>
+                <Link to="/about" className="about">Created By</Link>
+              </div>
               <Heading>Touch Typing</Heading>
               <button
                 className="logoutBtn"

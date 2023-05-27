@@ -65,3 +65,8 @@ body {
   border-radius: 7px;
   cursor: pointer;
 }
+.about {
+  font-size: 22px;
+  color: black;
+  text-decoration: underline;
+}
